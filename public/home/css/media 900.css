@@ -1,0 +1,62 @@
+@media (max-width: 900px) {
+    nav img {
+        height: 107px;
+        position: absolute;
+        top:-3px;
+        right: 0px;
+      
+      }
+      .logo{
+        margin-top: 20px;
+        padding: 2px;
+        font-size: 28px;
+        margin-left: 17%;
+       
+      }
+      header .title .contented h1{
+        font-size: 80px;
+        
+      }
+      header .title .contented p{
+        font-size: 28px;
+        margin-top: 260px;
+      }
+       header .title .contented button{
+      
+        margin-top: 13px;
+       }
+   
+      header .content .arrow{
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        padding: 50px 0;
+        text-align: center;
+        
+        color: #fff;
+      }
+      header .content .arrow i {
+        border: 2px solid #fff;
+        border-radius: 50%;
+        width: 40px ;
+        height: 40px;
+        line-height: 32px;
+        cursor: pointer;
+      }
+  
+  
+    .our-team .the-team .person p{
+        font-size: 17px;
+        padding:0 2px; 
+        margin-left: 20px;
+        color: rgb(122, 122, 122);
+        line-height: 1.5;
+      }
+      .our-team h2{
+          font-size: 65px;
+      }
+      .our-team .the-team .person{
+          margin-left: 12%;
+      }
+}

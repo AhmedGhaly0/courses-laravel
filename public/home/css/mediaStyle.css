@@ -1,0 +1,51 @@
+@media screen and (max-width: 1200px) {
+    nav.navbar {
+        position: absolute;
+        position: fixed;
+        top: 0px;
+        display: block;
+
+    }
+    div.bockplace{
+        /*display: none;*/
+    }
+    div.upper-bar{
+        display: none;
+    }
+    nav.navbar .container a img{
+        position: absolute;
+        left: 30px;
+        top: 1px;
+        padding:0 15px 17px;
+    }
+   nav .navbar-collapse{
+
+        display: none;
+       margin-right: 0;
+    }
+   nav .navbar-collapse ul{
+        background-color: #5d5d5d;
+    margin-right: 0;
+       height: 700px;
+       width: 100%;
+       margin: 0;
+       padding: 0;
+       z-index: 300;
+   }
+
+}
+@media screen and (max-width: 300px) {
+    .searching{
+            height: 740px;
+        }
+    .searching .container form{
+        position: absolute;
+        top: 320px;
+        left: 50px;
+        width:80%;
+
+    }
+    .searching .container form input{
+        font-size: 27px;
+    }
+}
